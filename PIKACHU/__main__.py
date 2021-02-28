@@ -67,7 +67,7 @@ Here is modules:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can be triggered with the following: /, !.\n")
 
-LEGEND_IMG = "https://telegra.ph/file/3088bf99d782acc902fc6.jpg"
+LEGEND_IMG = "https://telegra.ph/file/72be9c827b87998ecd599.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Legend is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
@@ -197,7 +197,7 @@ def start(update: Update, context: CallbackContext):
                      [
                         InlineKeyboardButton(
                             text=" ⚡ ѕσυя¢є ¢σ∂є ",
-                            url="https://t.me/pro_masti"),
+                            url="https://github.com/srinivasop/PIKACHU-OP"),
                          InlineKeyboardButton(
                             text=" ❤️ Channel ",
                              url="https://t.me/pikachubotupdates")        
@@ -208,12 +208,12 @@ def start(update: Update, context: CallbackContext):
                              url="https://t.me/pikachubotsupport"),
                         InlineKeyboardButton(
                              text=" 👨‍💻 Creator ",
-                             url="https://t.me/PYTHON_CODER_SRINIVAS")
+                             url="https://t.me/@ROCKY_8218")
                     
                     ]]))
     else:
         update.effective_message.reply_text(
-            "🔥Hey! PIKACHU IS ONLINE.\n⚙️All systems online and functioning normally!!\n<b>⏱ Alive time:</b> <code>{}</code>\n✨ Thanks for adding me! ✨"
+            "🔥Hey! LUCIFER THE PRO IS ONLINE.\n⚙️All systems online and functioning normally!!\n<b>⏱ Alive time:</b> <code>{}</code>\n✨ Thanks for adding me! ✨"
             .format(uptime),
             parse_mode=ParseMode.HTML)
 
